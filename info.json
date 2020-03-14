@@ -1,0 +1,83 @@
+{
+    "nome": "Gurjão Junior",
+    "cargo": "Engenharia de software",
+    "contato": {
+        "email": "gurjao@gmail.com",
+        "cel": "+55 91 98136-8896",
+        "cidade": "Belém, Pará, Brasil",
+        "perfil":[
+            {
+                "linkedin": "/gurjao",
+                "skype": "/gurjaojr"
+            }
+        ]
+    },
+    "experiencia": [
+        {
+            "empresa": "Empresa tal 1",
+            "periodo": "Período tal 1",
+            "cargo": "Cargo tal 1",
+            "resumo": "Resumo tal 1"
+        },
+        {
+            "empresa": "Empresa tal 2",
+            "periodo": "Período tal 2",
+            "cargo": "Cargo tal 2",
+            "resumo": "Resumo tal 2"
+        },
+        {
+            "empresa": "Empresa tal 3",
+            "periodo": "Período tal 3",
+            "cargo": "Cargo tal 3",
+            "resumo": "Resumo tal 3"
+        }
+    ],
+    "formacao": [
+        {
+            "graduacao": "Curso tal 1",
+            "periodo": "Periodo tal 1",
+            "instituicao": "Instituicao tal 1"
+        },
+        {
+            "graduacao": "Curso tal 2",
+            "periodo": "Periodo tal 2",
+            "instituicao": "Instituicao tal 2"
+        }
+    ],
+    "curso": [
+        {
+            "instituicao": "Instituicao tal 1",
+            "nome": ["Curso tal 1", "Curso tal 2", "Curso tal 3"]
+        }
+    ],
+    "habilidade": [
+        {
+            "nome": "Habilidade 1", 
+            "score": "4"
+        },
+        {
+            "nome": "Habilidade 1", 
+            "score": "8"
+        },
+        {
+            "nome": "Habilidade 1", 
+            "score": "4"
+        },
+        {
+            "nome": "Habilidade 1", 
+            "score": "8"
+        }
+    ],
+    "idioma": [
+        {
+            "nome": "Idioma tal 1",
+            "score":4
+        },
+        {
+            "nome": "Idioma tal 2",
+            "score":4
+        }
+    ],
+    "personalidade": ["Personalidade tal 1", "Personalidade tal 2", "Personalidade tal 3"],
+    "agradecimento": "Obrigado"
+}

@@ -3,68 +3,147 @@
 <html lang="pt">
 <head>
 	<meta charset="utf-8">
-
 	<title>Curriculum</title>
 	<meta name="description" content="Curriculum vitae">
 	<meta name="author" content="Gurjão">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-
 	<!-- Lib CSS -->
-	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Ubuntu">
-	<link rel="stylesheet" href="lib/bootstrap/css/bootstrap.min.css?v=1.0">
-	<link rel="stylesheet" href="lib/font-awesome/css/font-awesome.css?v=1.0">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css">
 	<!-- CSS -->
 	<link rel="stylesheet" href="css/app.css?v=1.0">
-
+	<script type="text/javascript">
+		//console.log("Teste 123");
+		var dados = {
+			"nome": "Gurjão Junior",
+			"cargo": "Engenharia de software",
+			"contato": {
+				"email": "gurjao@gmail.com",
+				"cel": "+55 91 98136-8896",
+				"cidade": "Belém, Pará, Brasil",
+				"perfil":[
+					{
+						"linkedin": "/gurjao",
+						"skype": "/gurjaojr"
+					}
+				]
+			},
+			"experiencia": [
+				{
+					"empresa": "Empresa tal 1",
+					"periodo": "Período tal 1",
+					"cargo": "Cargo tal 1",
+					"resumo": "Resumo tal 1"
+				},
+				{
+					"empresa": "Empresa tal 2",
+					"periodo": "Período tal 2",
+					"cargo": "Cargo tal 2",
+					"resumo": "Resumo tal 2"
+				},
+				{
+					"empresa": "Empresa tal 3",
+					"periodo": "Período tal 3",
+					"cargo": "Cargo tal 3",
+					"resumo": "Resumo tal 3"
+				}
+			],
+			"formacao": [
+				{
+					"graduacao": "Curso tal 1",
+					"periodo": "Periodo tal 1",
+					"instituicao": "Instituicao tal 1"
+				},
+				{
+					"graduacao": "Curso tal 2",
+					"periodo": "Periodo tal 2",
+					"instituicao": "Instituicao tal 2"
+				}
+			],
+			"curso": [
+				{
+					"instituicao": "Instituicao tal 1",
+					"nome": ["Curso tal 1", "Curso tal 2", "Curso tal 3"]
+				}
+			],
+			"habilidade": [
+				{
+					"nome": "Habilidade 1", 
+					"score": "4"
+				},
+				{
+					"nome": "Habilidade 1", 
+					"score": "8"
+				},
+				{
+					"nome": "Habilidade 1", 
+					"score": "4"
+				},
+				{
+					"nome": "Habilidade 1", 
+					"score": "8"
+				}
+			],
+			"idioma": [
+				{
+					"nome": "Idioma tal 1",
+					"score":4
+				},
+				{
+					"nome": "Idioma tal 2",
+					"score":4
+				}
+			],
+			"personalidade": ["Personalidade tal 1", "Personalidade tal 2", "Personalidade tal 3"],
+			"agradecimento": "Obrigado"
+		}
+	</script>
 </head>
 
 <body>
-
 	<hr class="my-0 bg-primary" style="border-top-width: 8px">
-	<h2 class="text-center mt-4 mb-0">Gurjão Junior</h2>
-	<h3 class="text-center text-muted mt-0 mb-4">Lorem ipsum 123</h3>
-
+	<h3 class="text-center text-uppercase mt-5 mb-0">Lorem ipsum</h3>
+	<h4 class="text-center text-uppercase text-muted mt-0 mb-5">Lorem ipsum</h4>
 	<div class="container-fluid">
 		<div class="row text-justify">
-			<div class="col-md-8 text-muted" style="background: #eee; padding: 24px;">
+			<div class="col-md-8 text-muted" style="background: #eee; padding: 40px;">
 				<h6 class="text-uppercase"><strong>Lorem ipsum</strong></h6>
 				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Fermentum et sollicitudin ac orci phasellus egestas tellus. Auctor eu augue ut lectus arcu bibendum. Praesent elementum facilisis leo vel fringilla est ullamcorper. Sed augue lacus viverra vitae congue eu consequat ac felis. Habitant morbi tristique senectus et netus et malesuada. Id nibh tortor id aliquet lectus proin nibh nisl. Nec sagittis aliquam malesuada bibendum arcu. Facilisi cras fermentum odio eu feugiat pretium nibh ipsum. Convallis aenean et tortor at risus viverra. Faucibus vitae aliquet nec ullamcorper sit amet risus nullam eget. Blandit volutpat maecenas volutpat blandit aliquam etiam erat velit scelerisque. Justo eget magna fermentum iaculis.</p>
 			</div>
-			<div class="col-md-4 text-muted" style="background: #ddd; padding: 24px;">
+			<div class="col-md-4 text-muted" style="background: #ddd; padding: 40px;">
 				<h6 class="text-uppercase"><strong>Lorem ipsum</strong></h6>
 				<ul class="list-unstyled">
-					<li><i class="fa fa-envelope-o"></i> Item</li>
-					<li><i class="fa fa-mobile-phone"></i> Item</li>
-					<li><i class="fa fa-map-marker"></i> Item</li>
-					<li><i class="fa fa-linkedin"></i> Item</li>
-					<li><i class="fa fa-skype"></i> Item</li>
+					<li><i class="fas fa-envelope"></i> Item</li>
+					<li><i class="fas fa-mobile-alt"></i> Item</li>
+					<li><i class="fas fa-map-marker-alt"></i> Item</li>
+					<li><i class="fab fa-linkedin"></i> Item</li>
+					<li><i class="fab fa-skype"></i> Item</li>
 				</ul>
 			</div>
 		</div>
-		
-		<h4 class="my-3" style="border-bottom: 1px solid #ccc;"><span style="border-bottom: 4px solid #07f;">Lorem impsum</span></h4>
-		
-		<div class="row text-justify">
+		<h5 class="m-4 text-uppercase" style="border-bottom: 1px solid #ccc;"><span style="border-bottom: 4px solid #07f;">Lorem impsum</span></h4>
+		<div class="row text-justify p-4">
 			<div class="col-md">
-				<h5 class="m-0 text-uppercase"><strong>Lorem ipsum | <span class="text-primary">1900 - 2000</span></strong></h5>
+				<h6 class="m-0 text-uppercase"><strong>Lorem ipsum | <span class="text-primary">1900 - 2000</span></strong></h6>
 				<h6 class="m-0 text-uppercase text-muted">Lorem ipsum</h6>
 				<p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Fermentum et sollicitudin ac orci phasellus egestas tellus. Auctor eu augue ut lectus arcu bibendum. Praesent elementum facilisis leo vel fringilla est ullamcorper. Sed augue lacus viverra vitae congue eu consequat ac felis. Habitant morbi tristique senectus et netus et malesuada. Id nibh tortor id aliquet lectus proin nibh nisl. Nec sagittis aliquam malesuada bibendum arcu. Facilisi cras fermentum odio eu feugiat pretium nibh ipsum. Convallis aenean et tortor at risus viverra. Faucibus vitae aliquet nec ullamcorper sit amet risus nullam eget. Blandit volutpat maecenas volutpat blandit aliquam etiam erat velit scelerisque. Justo eget magna fermentum iaculis.</p>
 			</div>
 			<div class="col-md">
-				<h5 class="m-0 text-uppercase"><strong>Lorem ipsum | <span class="text-primary">1900 - 2000</span></strong></h5>
+				<h6 class="m-0 text-uppercase"><strong>Lorem ipsum | <span class="text-primary">1900 - 2000</span></strong></h6>
 				<h6 class="m-0 text-uppercase text-muted">Lorem ipsum</h6>
 				<p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Fermentum et sollicitudin ac orci phasellus egestas tellus. Auctor eu augue ut lectus arcu bibendum. Praesent elementum facilisis leo vel fringilla est ullamcorper. Sed augue lacus viverra vitae congue eu consequat ac felis. Habitant morbi tristique senectus et netus et malesuada. Id nibh tortor id aliquet lectus proin nibh nisl. Nec sagittis aliquam malesuada bibendum arcu. Facilisi cras fermentum odio eu feugiat pretium nibh ipsum. Convallis aenean et tortor at risus viverra. Faucibus vitae aliquet nec ullamcorper sit amet risus nullam eget. Blandit volutpat maecenas volutpat blandit aliquam etiam erat velit scelerisque. Justo eget magna fermentum iaculis.</p>
 			</div>
 			<div class="col-md">
-				<h5 class="m-0 text-uppercase"><strong>Lorem ipsum | <span class="text-primary">1900 - 2000</span></strong></h5>
+				<h6 class="m-0 text-uppercase"><strong>Lorem ipsum | <span class="text-primary">1900 - 2000</span></strong></h6>
 				<h6 class="m-0 text-uppercase text-muted">Lorem ipsum</h6>
 				<p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Fermentum et sollicitudin ac orci phasellus egestas tellus. Auctor eu augue ut lectus arcu bibendum. Praesent elementum facilisis leo vel fringilla est ullamcorper. Sed augue lacus viverra vitae congue eu consequat ac felis. Habitant morbi tristique senectus et netus et malesuada. Id nibh tortor id aliquet lectus proin nibh nisl. Nec sagittis aliquam malesuada bibendum arcu. Facilisi cras fermentum odio eu feugiat pretium nibh ipsum. Convallis aenean et tortor at risus viverra. Faucibus vitae aliquet nec ullamcorper sit amet risus nullam eget. Blandit volutpat maecenas volutpat blandit aliquam etiam erat velit scelerisque. Justo eget magna fermentum iaculis.</p>
 			</div>
 		</div>
-		<div class="row">
+		<div class="row mb-4">
 			<div class="col-md text-uppercase">
 				<div class="card border-primary rounded-0 mb-2">
-					<h5 class="card-header text-center text-white bg-primary rounded-0">Lorem ipsum</h5>
+					<h6 class="card-header text-center text-white bg-primary rounded-0">Lorem ipsum</h6>
 					<div class="card-body">
 						<p class="card-text">
 							<span class="d-block"><strong>Lorem ipsum | <span class="text-primary">'1800-1900'</span></strong></span>
@@ -85,15 +164,86 @@
 					</div>
 				</div>
 			</div>
+			<div class="col-md text-uppercase">
+				<div class="card rounded-0">
+					<h6 class="card-header text-muted">Lorem ipsum</h6>
+					<div class="card-body">
+						<div class="row">
+							<div class="col">Lorem</div>
+							<div class="col"><div class="range-field"><input type="range" value="4" min="0" max="10" class="slider" disabled="true" /></div></div>
+						</div>
+						<div class="row">
+							<div class="col">Lorem</div>
+							<div class="col"> <div class="range-field"> <input type="range" value="8" min="0" max="10" class="slider" disabled="true" /></div></div>
+						</div>
+						<div class="row">
+							<div class="col">Lorem</div>
+							<div class="col"> <div class="range-field"> <input type="range" value="4" min="0" max="10" class="slider" disabled="true" /></div></div>
+						</div>
+						<div class="row">
+							<div class="col">Lorem</div>
+							<div class="col"><div class="range-field"><input type="range" value="8" min="0" max="10" class="slider" disabled="true" /></div></div>
+						</div>
+						<div class="row">
+							<div class="col">Lorem</div>
+							<div class="col"><div class="range-field"><input type="range" value="4" min="0" max="10" class="slider" disabled="true" /></div></div>
+						</div>
+						<div class="row">
+							<div class="col">Lorem</div>
+							<div class="col"> <div class="range-field"> <input type="range" value="8" min="0" max="10" class="slider" disabled="true" /></div></div>
+						</div>
+						<div class="row">
+							<div class="col">Lorem</div>
+							<div class="col"> <div class="range-field"> <input type="range" value="4" min="0" max="10" class="slider" disabled="true" /></div></div>
+						</div>
+						<div class="row">
+							<div class="col">Lorem</div>
+							<div class="col"><div class="range-field"><input type="range" value="8" min="0" max="10" class="slider" disabled="true" /></div></div>
+						</div>
+						<div class="row">
+							<div class="col">Lorem</div>
+							<div class="col"><div class="range-field"><input type="range" value="4" min="0" max="10" class="slider" disabled="true" /></div></div>
+						</div>
+						<div class="row">
+							<div class="col">Lorem</div>
+							<div class="col"> <div class="range-field"> <input type="range" value="8" min="0" max="10" class="slider" disabled="true" /></div></div>
+						</div>
+						<div class="row">
+							<div class="col">Lorem</div>
+							<div class="col"> <div class="range-field"> <input type="range" value="4" min="0" max="10" class="slider" disabled="true" /></div></div>
+						</div>
+						<div class="row">
+							<div class="col">Lorem</div>
+							<div class="col"><div class="range-field"><input type="range" value="8" min="0" max="10" class="slider" disabled="true" /></div></div>
+						</div>
+						<div class="row">
+							<div class="col">Lorem</div>
+							<div class="col"><div class="range-field"><input type="range" value="4" min="0" max="10" class="slider" disabled="true" /></div></div>
+						</div>
+						<div class="row">
+							<div class="col">Lorem</div>
+							<div class="col"> <div class="range-field"> <input type="range" value="8" min="0" max="10" class="slider" disabled="true" /></div></div>
+						</div>
+						<div class="row">
+							<div class="col">Lorem</div>
+							<div class="col"> <div class="range-field"> <input type="range" value="4" min="0" max="10" class="slider" disabled="true" /></div></div>
+						</div>
+						<div class="row">
+							<div class="col">Lorem</div>
+							<div class="col"><div class="range-field"><input type="range" value="8" min="0" max="10" class="slider" disabled="true" /></div></div>
+						</div>
+					</div>
+				</div>
+			</div>
 			<div class="col-md">
 				<div class="card rounded-0 mb-2 text-uppercase">
 					<div class="card-body">
-						<h5 class="text-center text-secondary"><strong>Lorem ipsum</strong></h5>
-						<div class="row text-center mx-4 border-radius-24">
-							<div class="col bg-primary text-white p-2 border-radius-24">
+						<h6 class="text-center text-secondary mb-4"><strong>Lorem ipsum</strong></h6>
+						<div class="row bg-light text-center mx-4 border-radius-24">
+							<div class="col bg-primary text-white p-1 border-radius-24" style="height: 28px;">
 								<span>Lorem</span>
 							</div>
-							<div class="col p-2">
+							<div class="col p-1" style="height: 28px;">
 								<span>Ipsum</span>
 							</div>
 						</div>
@@ -117,7 +267,7 @@
 				</div>
 				<div class="card rounded-0 text-uppercase" style="border-left: 8px solid #ccc;">
 					<div class="card-body">
-						<h5 class="text-muted">Lorem ipsum</h5>
+						<h6 class="text-muted">Lorem ipsum</h6>
 						<ul class="m-0">
 							<li>Item</li>
 							<li>Item</li>
@@ -128,88 +278,18 @@
 					</div>
 				</div>
 				<div class="mt-4 text-center">
-					<h5 class="text-muted text-uppercase"><strong>Lorem ipsum</strong></h5>
+					<h6 class="text-muted text-uppercase"><strong>Lorem ipsum</strong></h6>
 					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Fermentum et sollicitudin ac orci phasellus egestas tellus. Auctor eu augue ut lectus arcu bibendum.</p>
-					<h6 class="text-primary text-uppercase"><strong>Lorem ipsum</strong></h6>
-				</div>
-			</div>
-			<div class="col-md mb-2 text-uppercase">
-				<div class="card rounded-0">
-					<h5 class="card-header text-muted">Lorem ipsum</h5>
-					<div class="card-body">
-						<div class="row">
-							<div class="col">Lorem</div>
-							<div class="col"><div class="range-field"><input type="range" value="4" min="0" max="10" class="slider" disabled="true" /></div></div>
-						</div>
-						<div class="row">
-							<div class="col">Lorem</div>
-							<div class="col"> <div class="range-field"> <input type="range" value="5" min="0" max="10" class="slider" disabled="true" /></div></div>
-						</div>
-						<div class="row">
-							<div class="col">Lorem</div>
-							<div class="col"> <div class="range-field"> <input type="range" value="3" min="0" max="10" class="slider" disabled="true" /></div></div>
-						</div>
-						<div class="row">
-							<div class="col">Lorem</div>
-							<div class="col"><div class="range-field"><input type="range" value="6" min="0" max="10" class="slider" disabled="true" /></div></div>
-						</div>
-						<div class="row">
-							<div class="col">Lorem</div>
-							<div class="col"><div class="range-field"><input type="range" value="4" min="0" max="10" class="slider" disabled="true" /></div></div>
-						</div>
-						<div class="row">
-							<div class="col">Lorem</div>
-							<div class="col"> <div class="range-field"> <input type="range" value="5" min="0" max="10" class="slider" disabled="true" /></div></div>
-						</div>
-						<div class="row">
-							<div class="col">Lorem</div>
-							<div class="col"> <div class="range-field"> <input type="range" value="3" min="0" max="10" class="slider" disabled="true" /></div></div>
-						</div>
-						<div class="row">
-							<div class="col">Lorem</div>
-							<div class="col"><div class="range-field"><input type="range" value="6" min="0" max="10" class="slider" disabled="true" /></div></div>
-						</div>
-						<div class="row">
-							<div class="col">Lorem</div>
-							<div class="col"><div class="range-field"><input type="range" value="4" min="0" max="10" class="slider" disabled="true" /></div></div>
-						</div>
-						<div class="row">
-							<div class="col">Lorem</div>
-							<div class="col"> <div class="range-field"> <input type="range" value="5" min="0" max="10" class="slider" disabled="true" /></div></div>
-						</div>
-						<div class="row">
-							<div class="col">Lorem</div>
-							<div class="col"> <div class="range-field"> <input type="range" value="3" min="0" max="10" class="slider" disabled="true" /></div></div>
-						</div>
-						<div class="row">
-							<div class="col">Lorem</div>
-							<div class="col"><div class="range-field"><input type="range" value="6" min="0" max="10" class="slider" disabled="true" /></div></div>
-						</div>
-						<div class="row">
-							<div class="col">Lorem</div>
-							<div class="col"><div class="range-field"><input type="range" value="4" min="0" max="10" class="slider" disabled="true" /></div></div>
-						</div>
-						<div class="row">
-							<div class="col">Lorem</div>
-							<div class="col"> <div class="range-field"> <input type="range" value="5" min="0" max="10" class="slider" disabled="true" /></div></div>
-						</div>
-						<div class="row">
-							<div class="col">Lorem</div>
-							<div class="col"> <div class="range-field"> <input type="range" value="3" min="0" max="10" class="slider" disabled="true" /></div></div>
-						</div>
-						<div class="row">
-							<div class="col">Lorem</div>
-							<div class="col"><div class="range-field"><input type="range" value="6" min="0" max="10" class="slider" disabled="true" /></div></div>
-						</div>
-					</div>
+					<strong class="text-primary text-uppercase">Lorem ipsum</strong>
 				</div>
 			</div>
 		</div>
 	</div>
 	<!-- Lib JS -->
-	<script src="lib/angular/angular.min.js"></script>
-	<script src="lib/bootstrap/js/bootstrap.min.js"></script>
-	<script src="lib/jquery/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/js/all.min.js"></script>
 	<!-- JS -->
 	<script src="js/app.js"></script>
 

@@ -8,6 +8,10 @@ body {
 	border-radius: 24px;
 }
 
+.list-unstyled li {
+	font-size: 1.2em;
+}
+
 .slider {
 	-webkit-appearance: none;
 	width: 100%;
@@ -27,15 +31,15 @@ body {
 .slider::-webkit-slider-thumb {
 	-webkit-appearance: none;
 	appearance: none;
-	width: 15px;
-	height: 15px;
+	width: 10px;
+	height: 10px;
 	border-radius: 50%;
 	background: #07f;
 	cursor: pointer;
 }
 .slider::-moz-range-thumb {
-	width: 15px;
-	height: 15px;
+	width: 10px;
+	height: 10px;
 	border-radius: 50%;
 	background: #07f;
 	cursor: pointer;
