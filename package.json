@@ -21,9 +21,15 @@
   },
   "homepage": "https://github.com/gurjao/curriculum#readme",
   "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.12.1",
     "bootstrap": "^4.4.1",
     "font-awesome": "^4.7.0",
+    "gulp": "^4.0.2",
+    "gulp-minify-css": "^1.2.4",
+    "gulp-sass": "^4.0.2",
     "jquery": "^3.4.1",
-    "popper": "^1.0.1"
+    "node-sass": "^4.13.1",
+    "popper": "^1.0.1",
+    "popper.js": "^1.16.1"
   }
 }
