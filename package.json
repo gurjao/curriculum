@@ -27,8 +27,8 @@
     "gulp": "^4.0.2",
     "gulp-minify-css": "^1.2.4",
     "gulp-sass": "^4.0.2",
-    "jquery": "^3.4.1",
-    "node-sass": "^4.13.1",
+    "jquery": "^3.5.1",
+    "node-sass": "^4.14.1",
     "popper": "^1.0.1",
     "popper.js": "^1.16.1"
   }
