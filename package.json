@@ -23,7 +23,7 @@
   "dependencies": {
     "@fortawesome/fontawesome-free": "^5.13.0",
     "bootstrap": "^4.5.3",
-    "clean-css": "^4.2.3",
+    "clean-css": "^5.1.1",
     "font-awesome": "^4.7.0",
     "gulp": "^4.0.2",
     "gulp-minify-css": "^1.2.4",
