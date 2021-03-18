@@ -14,21 +14,21 @@
     "experiencia": [
         {
             "empresa": "Empresa tal 1",
-            "periodo": "Período tal 1",
-            "cargo": "Cargo tal 1",
-            "resumo": "Resumo tal 1"
+            "periodo": "Nov/2020 até hoje",
+            "cargo": "Front-end developer",
+            "resumo": "No time de front-end da plataforma de investimentos da corretora digital, utilizamos as stacks: NodeJs, Angular, PostgreSQL, Flutter."
         },
         {
-            "empresa": "Empresa tal 2",
-            "periodo": "Período tal 2",
-            "cargo": "Cargo tal 2",
-            "resumo": "Resumo tal 2"
+            "empresa": "SEFA-PA",
+            "periodo": "Ago/2017 a Set/2019",
+            "cargo": "Analista de sistemas",
+            "resumo": "Atuando na equipe de projetos, criando aplicações utilizando padrão MVC, em projetos de APIs/REST durante a implementação da Arquitetura Orientada a Serviços (SOA) dentro da SEFA (Secrtetaria da Fazenda do Estado do Pará), fazendo uso de JAVA com framework Spring no back-end e Angular no front-end e bibliotecas como Material Design. Servidor weblogic e Git como controle de versionamento."
         },
         {
-            "empresa": "Empresa tal 3",
-            "periodo": "Período tal 3",
-            "cargo": "Cargo tal 3",
-            "resumo": "Resumo tal 3"
+            "empresa": "Stefanini IT Solutions",
+            "periodo": "Jun/2009 a Jun/2017",
+            "cargo": "Desenvolvedor Web",
+            "resumo": "Na Fábrica de Software, responsável pela elaboração, desenvolvimento e implementação do Front-end dos sistemas do qual a empresa presta serviço. Desenvolvidos em JAVA, .NET, PHP e etc, com frameworks como Struts, JSF, Angular e mais, utilizando o HTML, CSS e JavaScript e fazendo uso de bibliotecas como jQquery, Bootstrap e outras. Manuseio nas IDE’s mais utilizadas no mercado e SVN, CVS, Tortoise, para controle de versão. Gerenciado por ferramentas como Project, Planner e Mantis para o feedback das tarefas. Acompanhado de metodologia ágil SCRUM."
         }
     ],
     "formacao": [
