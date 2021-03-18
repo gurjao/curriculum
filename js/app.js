@@ -46,9 +46,16 @@ fetch('https://raw.githubusercontent.com/gurjao/curriculum/master/info.json')
     document.querySelector('#cursoNome1').innerHTML = json.curso[0].nome[3];
     
     /* Habilidade */
-    document.querySelector('#habilidade1').innerHTML = json.habilidade[2].nome;
+    document.querySelector('#habilidade1').innerHTML = json.habilidade[0].nome;
     document.querySelector('#habilidade2').innerHTML = json.habilidade[1].nome;
-    document.querySelector('#habilidade3').innerHTML = json.habilidade[0].nome;
+    document.querySelector('#habilidade3').innerHTML = json.habilidade[2].nome;
+    document.querySelector('#habilidade4').innerHTML = json.habilidade[3].nome;
+    document.querySelector('#habilidade5').innerHTML = json.habilidade[4].nome;
+    document.querySelector('#habilidade6').innerHTML = json.habilidade[5].nome;
+    document.querySelector('#habilidade7').innerHTML = json.habilidade[6].nome;
+    document.querySelector('#habilidade8').innerHTML = json.habilidade[7].nome;
+    document.querySelector('#habilidade9').innerHTML = json.habilidade[8].nome;
+    document.querySelector('#habilidade10').innerHTML = json.habilidade[9].nome;
     
     /* Idioma */
     document.querySelector('#idioma1').innerHTML = json.idioma[0].nome;

@@ -51,20 +51,52 @@
     ],
     "habilidade": [
         {
-            "nome": "Html/Css/Javascript", 
+            "nome": "Html", 
             "score": "10"
         },
         {
-            "nome": "Habilidade 1", 
-            "score": "8"
+            "nome": "CSS/SCSS/SASS", 
+            "score": "10"
         },
         {
-            "nome": "Habilidade 1", 
-            "score": "4"
+            "nome": "Javascript", 
+            "score": "10"
         },
         {
-            "nome": "Habilidade 1", 
-            "score": "8"
+            "nome": "jQuery", 
+            "score": "10"
+        },
+        {
+            "nome": "Angular 2+", 
+            "score": "10"
+        },
+        {
+            "nome": "Java/Spring", 
+            "score": "10"
+        },
+        {
+            "nome": "C#/.NET", 
+            "score": "10"
+        },
+        {
+            "nome": "Hibernate/JPA", 
+            "score": "10"
+        },
+        {
+            "nome": "SQL/MongoDB", 
+            "score": "10"
+        },
+        {
+            "nome": "Node", 
+            "score": "10"
+        },
+        {
+            "nome": "JBoss/Weblogic", 
+            "score": "10"
+        },
+        {
+            "nome": "Git (Github, Gitlab, CodeCommit)", 
+            "score": "10"
         }
     ],
     "idioma": [
