@@ -63,6 +63,7 @@ fetch('https://raw.githubusercontent.com/gurjao/curriculum/master/info.json')
     
     /* Agradecimento */
     document.querySelector('#agradecimento').innerHTML = json.agradecimento;
+    document.querySelector('#autor').innerHTML = json.autor;
 })
 
 /*

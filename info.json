@@ -69,14 +69,15 @@
     ],
     "idioma": [
         {
-            "nome": "Idioma tal 1",
+            "nome": "Português",
             "score":4
         },
         {
-            "nome": "Idioma tal 2",
+            "nome": "Inglês",
             "score":4
         }
     ],
     "personalidade": ["Competência", "Criatividade", "Sinceridade", "Resiliência", "Liderança"],
-    "agradecimento": "Caso queria tirar duvidas sobre mim e sobre minhas qualificações, fique à vontade para entrar em contato."
+    "agradecimento": "Caso queria tirar duvidas sobre mim e sobre minhas qualificações, fique à vontade para entrar em contato.",
+    "autor": "Gurjão Jr."
 }
