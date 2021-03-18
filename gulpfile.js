@@ -5,7 +5,7 @@ var minifycss = require('gulp-minify-css');
 //var gulp = require( './node_modules/gulp/index.js' );
 
 /* Minifica */
-gulp.task('default', async function () {
+gulp.task('default', async function() {
     gulp.src('./css/**/*.scss').pipe(sass({outputStyle: 'compressed'}).on('error', sass.logError)).pipe(gulp.dest('./public/css'));
     gulp.src('./js/**/*.js').pipe(gulp.dest('./public/js'));
     gulp.src('./node_modules/bootstrap/dist/css/bootstrap.min.css').pipe(gulp.dest('./public/css'));
@@ -23,6 +23,10 @@ gulp.task('default', async function () {
     gulp.src('./node_modules/@fortawesome/fontawesome-free/webfonts/*').pipe(gulp.dest('./public/webfonts'));
     gulp.src('./node_modules/font-awesome/fonts/*').pipe(gulp.dest('./public/fonts'));
 });
+gulp.task('watch', function() {
+    gulp.watch('./js/**/*.js', gulp.series('default'));
+});
+
 /*
 gulp.task('mensagem', function (done){
     console.log('Teste de retorno!');
