@@ -1,16 +1,15 @@
 {
     "nome": "Gurjão Junior",
     "cargo": "Engenharia de software",
+    "sobre": "Desenvolvedor Front-end, pensa em soluções meramente técnicas, sempre tentando enxergar além das tecnologias, construindo pensamentos e soluções com foco em outros aspectos. Interfaces com usabilidade, acessibilidade e performance são apenas alguns deles. Profissional capaz de trabalhar diretamente com tecnologia no front-end e no back-end de batalha, codificando interfaces para aplicativos e websites, e ao mesmo tempo capacitado para projetar experiências satisfatórias aos usuários.",
     "contato": {
         "email": "gurjao@gmail.com",
         "cel": "+55 91 98136-8896",
         "cidade": "Belém, Pará, Brasil",
-        "perfil":[
-            {
+        "perfil": {
                 "linkedin": "/gurjao",
                 "skype": "/gurjaojr"
             }
-        ]
     },
     "experiencia": [
         {
