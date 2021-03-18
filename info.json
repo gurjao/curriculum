@@ -13,46 +13,46 @@
     },
     "experiencia": [
         {
-            "empresa": "Empresa tal 1",
-            "periodo": "Nov/2020 até hoje",
+            "empresa": "Sim;paul",
+            "periodo": "Nov/2020 - até hoje",
             "cargo": "Front-end developer",
             "resumo": "No time de front-end da plataforma de investimentos da corretora digital, utilizamos as stacks: NodeJs, Angular, PostgreSQL, Flutter."
         },
         {
             "empresa": "SEFA-PA",
-            "periodo": "Ago/2017 a Set/2019",
+            "periodo": "Ago/2017 - Set/2019",
             "cargo": "Analista de sistemas",
             "resumo": "Atuando na equipe de projetos, criando aplicações utilizando padrão MVC, em projetos de APIs/REST durante a implementação da Arquitetura Orientada a Serviços (SOA) dentro da SEFA (Secrtetaria da Fazenda do Estado do Pará), fazendo uso de JAVA com framework Spring no back-end e Angular no front-end e bibliotecas como Material Design. Servidor weblogic e Git como controle de versionamento."
         },
         {
             "empresa": "Stefanini IT Solutions",
-            "periodo": "Jun/2009 a Jun/2017",
+            "periodo": "Jun/2009 - Jun/2017",
             "cargo": "Desenvolvedor Web",
             "resumo": "Na Fábrica de Software, responsável pela elaboração, desenvolvimento e implementação do Front-end dos sistemas do qual a empresa presta serviço. Desenvolvidos em JAVA, .NET, PHP e etc, com frameworks como Struts, JSF, Angular e mais, utilizando o HTML, CSS e JavaScript e fazendo uso de bibliotecas como jQquery, Bootstrap e outras. Manuseio nas IDE’s mais utilizadas no mercado e SVN, CVS, Tortoise, para controle de versão. Gerenciado por ferramentas como Project, Planner e Mantis para o feedback das tarefas. Acompanhado de metodologia ágil SCRUM."
         }
     ],
     "formacao": [
         {
-            "graduacao": "Curso tal 1",
-            "periodo": "Periodo tal 1",
-            "instituicao": "Instituicao tal 1"
+            "graduacao": "Engenharia da Computação",
+            "periodo": "2002 - 2007",
+            "instituicao": "IESAM - Instituto de ensino superior da amazônia"
         },
         {
-            "graduacao": "Curso tal 2",
-            "periodo": "Periodo tal 2",
-            "instituicao": "Instituicao tal 2"
+            "graduacao": "Design",
+            "periodo": "2002 - 2003",
+            "instituicao": "UEPA - Universidade Estadual do Pará"
         }
     ],
     "curso": [
         {
-            "instituicao": "Instituicao tal 1",
-            "nome": ["Curso tal 1", "Curso tal 2", "Curso tal 3", "Curso tal 4"]
+            "instituicao": "Alura",
+            "nome": ["Design UI/UX", "Front-end", "Back-end", "Produtividade"]
         }
     ],
     "habilidade": [
         {
-            "nome": "Habilidade 1", 
-            "score": "4"
+            "nome": "Html/Css/Javascript", 
+            "score": "10"
         },
         {
             "nome": "Habilidade 1", 
