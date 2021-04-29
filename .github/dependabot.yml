@@ -1,0 +1,30 @@
+version: 2
+updates:
+- package-ecosystem: npm
+  directory: "/"
+  schedule:
+    interval: daily
+    time: "08:00"
+  open-pull-requests-limit: 10
+  ignore:
+  - dependency-name: "@fortawesome/fontawesome-free"
+    versions:
+    - 5.15.2
+    - 5.15.3
+  - dependency-name: yargs-parser
+    versions:
+    - 5.0.1
+  - dependency-name: elliptic
+    versions:
+    - 6.5.4
+  - dependency-name: clean-css
+    versions:
+    - 5.0.1
+    - 5.1.0
+    - 5.1.1
+  - dependency-name: jquery
+    versions:
+    - 3.6.0
+  - dependency-name: bootstrap
+    versions:
+    - 4.6.0
