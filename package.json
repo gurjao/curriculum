@@ -22,7 +22,7 @@
   "homepage": "https://github.com/gurjao/curriculum#readme",
   "dependencies": {
     "@fortawesome/fontawesome-free": "^5.13.0",
-    "bootstrap": "^4.5.3",
+    "bootstrap": "^5.0.0",
     "clean-css": "^5.1.4",
     "font-awesome": "^4.7.0",
     "gulp": "^4.0.2",
