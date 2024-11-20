@@ -28,7 +28,7 @@
     "gulp": "^4.0.2",
     "gulp-minify-css": "^1.2.4",
     "gulp-sass": "^5.1.0",
-    "jquery": "^3.5.1",
+    "jquery": "^3.7.1",
     "lodash.template": "^4.5.0",
     "node-sass": "^7.0.0",
     "popper": "^1.0.1",
