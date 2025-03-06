@@ -27,7 +27,7 @@
     "font-awesome": "^4.7.0",
     "gulp": "^4.0.2",
     "gulp-minify-css": "^1.2.4",
-    "gulp-sass": "^6.0.0",
+    "gulp-sass": "^6.0.1",
     "jquery": "^3.7.1",
     "lodash.template": "^4.5.0",
     "node-sass": "^9.0.0",
