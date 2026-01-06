@@ -1,1 +1,36 @@
-node_modules
+# Arquivos de sistema operacional comuns
+.DS_Store
+Thumbs.db
+
+# Pastas de dependências (específicas da linguagem, ex: Node.js, Python, etc.)
+node_modules/
+vendor/
+venv/
+
+# Artefatos de build e pastas de saída
+/build
+/dist
+/out
+/target
+
+# Arquivos temporários, de log e cache
+*.log
+*.tmp
+.cache/
+temp/
+
+# Arquivos de configuração e variáveis de ambiente (nunca devem ser commitados!)
+.env
+.env.local
+.env.*.local
+
+# Configurações de IDEs (ex: VS Code, IntelliJ, etc.)
+.vscode/
+.idea/
+*.suo
+*.user
+*.config.user
+*.iml
+
+# Arquivos gerados por ferramentas de teste/cobertura
+/coverage
